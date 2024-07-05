@@ -43,6 +43,9 @@ public class ArrayListExam {
 		for (int i = 0; i < listS.size(); i++) {
 			System.out.println(i + "번째 값 : " + listS.get(i));
 		}
+		int size1 = listS.size();
+		System.out.println("총 객체수 : " + size1);
+		System.out.println("*******************");
 				
 		
 		// 향상 for문
